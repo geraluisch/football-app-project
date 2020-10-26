@@ -33,7 +33,7 @@ export const leagueCountry = country => `${ cors_anywhere }${ base_url }${ leagu
 export const currentSeason = new Date().getFullYear();
 export const currentDate   = new Date();
 export const currentFormatDate = `${currentDate.getFullYear()}${currentDate.getMonth()}-${currentDate.getDay()}`;
-export const api_key = /*'2a51588a7880b3ce293422d0d309f712';*/'bfbd968a1b0a0e231c7a5129eb073e5f';
+export const api_key = 'bfbd968a1b0a0e231c7a5129eb073e5f';
 export const api_key_2 = () => {   
   const localApi = localStorage.getItem('apiUserKey');    
   return localApi !== '' ? localApi :  api_key;

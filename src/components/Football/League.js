@@ -15,7 +15,6 @@ const League = ({ league_id, name, type, country, country_code, season, season_s
         <a href={`/leagues/league/${ league_id }`}><p>See more</p></a>  
     </div>            
   </div>   
-
 );
 
 League.displayName = 'League';

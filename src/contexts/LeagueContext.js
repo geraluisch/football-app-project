@@ -45,7 +45,7 @@ const LeagueContextProvider = ({ children }) => {
     };
 
     const getTeams = league_id => {
-        fetch(teamLeagueGet(league_id), requestOptions_2)
+        fetch(teamLeagueGet(league_id), requestOptions)
             .then(res => res.json())
             .then(data => {
                 const { api } = data;                                
@@ -56,7 +56,7 @@ const LeagueContextProvider = ({ children }) => {
     };
 
     const getLeagueTable = league_id => {
-        fetch(leagueTableGet(league_id), requestOptions)
+        fetch(leagueTableGet(league_id), requestOptions_2)
             .then(res => res.json())
             .then(data => {           
                 const { api } = data;                                

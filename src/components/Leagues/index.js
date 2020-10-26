@@ -30,7 +30,7 @@ const LeaguesInfo = () => {
                 
                 <div class="main-league">
                 {   
-                    (doneFetchTeams /*&& doneFetchLeague league={ league }*/) ?  
+                    (doneFetchTeams) ?  
                         (teamsLeague.results > 0 ? <Teams  teamsLeague={ teamsLeague } /> : <Message text='Error' /> )
                     :
                         ( 

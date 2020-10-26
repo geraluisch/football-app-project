@@ -35,9 +35,6 @@ const Football = () => {
                     ( <main>{ rows }</main> )
             }
         </Fragment>
-      
-   
-        
     );
 }
 

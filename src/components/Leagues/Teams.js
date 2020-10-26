@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const Teams = ({ teamsLeague/*, league*/ }) => {
+const Teams = ({ teamsLeague }) => {
   const classes = useStyles();
   const { teams } = teamsLeague;
   const league_id = window.location.pathname.split('/')[3];  

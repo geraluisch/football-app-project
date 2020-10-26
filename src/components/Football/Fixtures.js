@@ -22,15 +22,7 @@ const SearchBar = ({ fixturesLeague }) => {
             <div class="form-grup-partidos">
                 <label>Next Matches:</label>
                 { rows }               
-            </div>            
-            {/* <div class="form-group-down">
-                <div class="grup-input-positon box-buscador">   
-                    <input id="txtBuscar" placeholder="Search" class="form-control input-margin-izquierdo" type="text"/>
-                    <div id="spanBuscar" class="icon-position-btn-buscar">
-                        <span class="fas fa-search " title="Buscar"></span>
-                    </div>
-                </div>
-            </div> */}
+            </div> 
         </div>
     )
 };
