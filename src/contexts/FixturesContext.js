@@ -43,7 +43,7 @@ const FixturesProvider = ({ children }) => {
         redirect: 'follow'
     };   
   
-    useEffect(() => getFixtures(sp_league_id, dateNextWeekend), [/*sp_league_id, dateNextWeekend*/]);    
+    useEffect(() => getFixtures(sp_league_id, dateNextWeekend), []);    
 
     const getFixtures = (league_id, nextMatchDate) => {         
         fetch(fixturesGet(league_id,nextMatchDate), requestOptions)
